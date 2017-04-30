@@ -1,9 +1,7 @@
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -87,5 +85,33 @@ public class TestStream {
         System.out.println("-------------------------------------");
 
     }
+
+    @Test
+    public void test4() {
+        Optional<Double> reduce = emps.stream()
+                .map((emp -> emp.getSal()))
+                .reduce(Double::sum);
+
+        System.out.println(reduce.get());
+
+        DoubleSummaryStatistics collect = emps.stream()
+                .collect(Collectors.summarizingDouble((e) -> e.getSal()));
+
+        System.out.println(collect.getCount());
+        System.out.println(collect.getAverage());
+        System.out.println(collect.getMax());
+        System.out.println(collect.getSum());
+
+
+    }
+
+    @Test
+    public void test5() {
+        String collect = emps.stream()
+                .map(emp -> emp.getName())
+                .collect(Collectors.joining(","));
+        System.out.println(collect);
+    }
+
 
 }
