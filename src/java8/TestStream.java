@@ -1,3 +1,6 @@
+package java8;
+
+import java8.Emp;
 import org.junit.Test;
 
 import java.util.*;

@@ -1,3 +1,5 @@
+package java8;
+
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -43,9 +45,9 @@ public class TestLambda {
 
     @Test
 //    public void test2(){
-//        List<Emp> filter = filter(emps);
-//        for (Iterator<Emp> iterator = filter.iterator(); iterator.hasNext(); ) {
-//            Emp next =  iterator.next();
+//        List<java8.Emp> filter = filter(emps);
+//        for (Iterator<java8.Emp> iterator = filter.iterator(); iterator.hasNext(); ) {
+//            java8.Emp next =  iterator.next();
 //            System.out.println(next);
 //        }
 //    }
@@ -86,6 +88,11 @@ public class TestLambda {
         for (int i = 0; i < apply.length; i++) {
             System.out.println(apply[i]);
         }
+    }
+
+    @Test
+    public void test6(){
+        System.out.printf(String.valueOf("aaa".length()));
     }
 
 }

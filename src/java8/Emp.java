@@ -1,3 +1,5 @@
+package java8;
+
 /**
  * Created by fan on 2017/4/30.
  */
@@ -19,7 +21,7 @@ public class Emp {
 
     @Override
     public String toString() {
-        return "Emp{" +
+        return "java8.Emp{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", sal=" + sal +
