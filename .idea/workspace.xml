@@ -93,8 +93,8 @@
       <file leaf-file-name="TestLambda.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java8/TestLambda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="95">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -783,7 +783,7 @@
       <workItem from="1495109442613" duration="829000" />
       <workItem from="1495378695509" duration="263000" />
       <workItem from="1496667715208" duration="1470000" />
-      <workItem from="1520581057356" duration="248000" />
+      <workItem from="1520581057356" duration="446000" />
     </task>
     <task id="LOCAL-00001">
       <created>1493480104209</created>
@@ -820,7 +820,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520581131092</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1520581367793</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520581367794</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test">
+      <created>1520581483885</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520581483885</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -829,7 +843,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24403000" />
+    <option name="totallyTimeSpent" value="24601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1281,8 +1295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java8/TestLambda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="95">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
