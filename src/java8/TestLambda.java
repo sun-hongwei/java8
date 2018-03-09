@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.function.Function;
 
 /**
- * Created by sunhongwei111 on 2017/4/29.
+ * Created by sunhongwei on 2017/4/29.
  */
 public class TestLambda {
 
